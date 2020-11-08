@@ -17,7 +17,6 @@ class GiftViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         seasonalCollectionView.dataSource = self
         seasonalCollectionView.delegate = self
         
